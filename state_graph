@@ -1,0 +1,9 @@
+// LangGraph State Graph
+digraph {
+	planner [label=Planner]
+	architect [label=Architect]
+	coder [label=Coder]
+	__start__ -> planner
+	planner -> architect
+	architect -> coder
+}
